@@ -1,0 +1,14 @@
+¿Que hace la funcion atoi?
+Hacer un parse de char a un integer.
+
+Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+atof, conviente una cadena a un valor numérico (flotante/ real)
+atol, convierte una cadena a un valor numérico  (entero lago)
+
+Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+No hay una funcién en especifico, solo es necesario hacer un cast Ejemplo:
+
+int a = 1;
+char b = a;
+
+aqui hemos conventido la variable a (int) en un char guardandola en b (char)
