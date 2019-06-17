@@ -1,1 +1,15 @@
 Respuestas del punto 2
+
+¿Que hacen los parametros argc y argv?
+El argv (argument values) son los valores que se van agregar en el metodo main.
+El argc (argument count) son la cantidad de argumentos valor se van a recibir en argv
+
+
+¿Como se usa el programa?
+El sistema emula es una lectura de archivos, utilizando tres argumento.
+
+Compara el valor del argumento con un texto en los condicionales ("debug", "file") y realiza uan operación de acuerdo al texto.
+Si es "debug" imprime un texto informando que se ejecuto modo Debug
+si es "-file" es donde se emula la lectura de un archivo que entra como tercer parametro.
+
+Es importante tener presente que el parametro "-file" y nombre del archivo deben ir consecutivos.
